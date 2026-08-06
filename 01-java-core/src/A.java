@@ -1,12 +1,12 @@
 
 public class A {
-	public A(int a){
+	public A(int x){
 		
 		System.out.println("int A class");
 	}
 	public A(boolean x) {
 		
-		this(A);
+		this(10);
 		System.out.println("boolean A class");
 	}
 
