@@ -6,7 +6,7 @@ public class A {
 	}
 	public A(boolean x) {
 		
-		this(10);
+		this(1);
 		System.out.println("boolean A class");
 	}
 

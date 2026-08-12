@@ -17,5 +17,5 @@ public class Main {
 	System.out.println(u.getCollege().getStudent().getStudentId());
 	System.out.println(u.getCollege().getStudent().getStudentName());
 	}
-	
+
 }
