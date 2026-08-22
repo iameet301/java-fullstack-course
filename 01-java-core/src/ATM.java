@@ -18,23 +18,23 @@ public class ATM {
 
             switch (choice) {
                 case 1:
-                    System.out.println("Current balance: $" + balance);
+                    System.out.println("Current balance: " + balance);
                     break;
                 case 2:
-                    System.out.print("Enter amount to withdraw: $");
+                    System.out.print("Enter amount to withdraw: ");
                     double withdrawAmount = sc.nextDouble();
                     if (withdrawAmount > balance) {
                         System.out.println("Insufficient funds!");
                     } else {
                         balance -= withdrawAmount;
-                        System.out.println("Please collect your cash. Current balance: $" + balance);
+                        System.out.println("Please collect your cash. Current balance: " + balance);
                     }
                     break;
                 case 3:
-                    System.out.print("Enter amount to deposit: $");
+                    System.out.print("Enter amount to deposit: ");
                     double depositAmount = sc.nextDouble();
                     balance += depositAmount;
-                    System.out.println("Deposit successful. Current balance: $" + balance);
+                    System.out.println("Deposit successful. Current balance: " + balance);
                     break;
                 case 4:
                     System.out.println("Exiting...");
@@ -45,6 +45,6 @@ public class ATM {
             }
             System.out.println("---------------------------");
         }
-        sc.close();
+  
     }
 }
