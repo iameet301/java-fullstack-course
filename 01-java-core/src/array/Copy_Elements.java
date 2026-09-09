@@ -7,7 +7,7 @@ public class Copy_Elements {
 		int[] copy= new int[org.length];
 		
 		for(int i=0; i<org.length; i++) {
-			copy[i]=org[i];
+			copy[i] = org[i];
 		}
 		System.out.print("Copied Array: ");
         for (int value : copy) {
