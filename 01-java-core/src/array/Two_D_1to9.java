@@ -10,6 +10,7 @@ public class Two_D_1to9 {
 			}
 			System.out.println();
 		}
+	
 	}
 
 }
