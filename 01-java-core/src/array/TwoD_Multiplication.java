@@ -21,7 +21,6 @@ public class TwoD_Multiplication {
             }
         }
 
-        // Print Result
         System.out.println("Resultant Matrix:");
         for (int[] row : result) {
             for (int val : row) {
