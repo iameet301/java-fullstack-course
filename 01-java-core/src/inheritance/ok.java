@@ -10,6 +10,9 @@ public class ok {
 		
 		Child2 c2=new Child2();
 		c2.getChild2Saving();
+		
+		Parent p2=new Child2();
+		
 				
 	}
 }
