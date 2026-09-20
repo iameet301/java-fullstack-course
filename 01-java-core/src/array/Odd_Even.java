@@ -1,6 +1,7 @@
 package array;
 
 public class Odd_Even {
+
     public static void main(String[] args) {
         int[] numbers = {12, 7, -5, 18, 0, 9, 24, -4};
 
