@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Arrays;
+
 public class Two_D_Addition {
 	public static void main(String[] args) {
 		int[][] matrixA = {
@@ -24,11 +26,7 @@ public class Two_D_Addition {
         }
 
         // Display the output
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                System.out.print(sum[i][j] + "\t");
-            }
-            System.out.println();
+        for(int[] arr2:sum)
+            System.out.println(Arrays.toString(arr2));
         }
     }
-}
