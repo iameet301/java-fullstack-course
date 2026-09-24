@@ -7,3 +7,4 @@ public class MultipleInheritanceDemo {
         doc.show();
     }
 }
+
