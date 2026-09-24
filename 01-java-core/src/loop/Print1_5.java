@@ -12,6 +12,6 @@ public class Print1_5 {
 		
 	}while(a<=5);
 
-
+	
 }
 }

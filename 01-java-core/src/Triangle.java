@@ -10,21 +10,9 @@ public class Triangle {
 		System.out.println("take third angle");
 		int c=sc.nextInt();
 		
-		if(a<180 ||a>0)
-			System.out.println("ok");
-		else {
-			System.out.println("invalid");
-		}
-		if(b<180 ||c>0)
-			System.out.println("ok");
-		else {
-			System.out.println("invalid");
-		}
-		if(c<180 ||c>0)
-			System.out.println("ok");
-		else {
-			System.out.println("invalid");
-		}
+		int i=a+b+c;
+		
+		if
 	}
 
 }

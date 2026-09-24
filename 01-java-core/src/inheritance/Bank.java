@@ -20,7 +20,6 @@ class HDFC extends Bank {
     }
 
 
-public class PolymorphismDemo {
     public static void main(String[] args) {
         // Parent class reference, Child class object (Upcasting)
         Bank bank;
@@ -32,4 +31,4 @@ public class PolymorphismDemo {
         System.out.println("HDFC Interest Rate: " + bank.getInterestRate() + "%");
     }
 }
-}
+

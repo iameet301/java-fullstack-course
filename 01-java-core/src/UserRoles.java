@@ -16,4 +16,4 @@ public class UserRoles {
                 System.out.println("Role not recognized.");
         }
     }
-}
+}.
