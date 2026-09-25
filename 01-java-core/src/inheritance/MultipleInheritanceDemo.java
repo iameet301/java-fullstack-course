@@ -5,7 +5,7 @@ public class MultipleInheritanceDemo {
         Document doc = new Document();
         doc.print();
         doc.show();
-        
+        //
     }
 }
 
