@@ -15,7 +15,7 @@ public class  Demo {
         System.out.println("\n--- 3. Method Hiding ---");
         obj.display(); 
        
-    }
+    }//
 }
 
 
