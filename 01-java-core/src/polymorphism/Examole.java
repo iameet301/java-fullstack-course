@@ -28,7 +28,7 @@ public class Examole {
 	    static void display() {
 	        System.out.println("Child static display()");
 	    }
-	}
+	}//
 	
 
 	
