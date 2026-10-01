@@ -5,6 +5,6 @@ public interface emo {
 		i g=name -> name.length();
 		int len=g.getTheLengthOfTheString("meet");
 		System.out.println(len);
-	}
+	}//
 
 }
