@@ -8,12 +8,12 @@ public class MiniExceptionDemo {
 
     public static void main(String[] args) {
         try {
-            check(-5); // Risky call[cite: 11]
+            check(-5); 
         } catch (Exception e) {
-            // Alternative handling[cite: 11]
+          
             System.out.println("Handled: " + e.getMessage());[cite: 4]
         } finally {
-            // Guaranteed cleanup execution[cite: 2, 10]
+
             System.out.println("Cleanup done.");
         }
     }
