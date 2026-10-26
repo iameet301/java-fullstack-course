@@ -1,7 +1,7 @@
 package polymorphism;
-@FunctionalInterface;
+@FunctionalInterface
 public interface i {
-	public int getTheLengthOfTheString(String name) {
+	public int getTheLengthOfTheString(String name) { 
 		return name.length();
 
 }
