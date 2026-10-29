@@ -34,14 +34,12 @@ public class MoreOptionalExamples {
         System.out.println("Example 2 (Applied Promo):   " + appliedCode);
 
 
-        // =================================================================
-        // EXAMPLE 3: Connecting Optional + Exception Handling (orElseThrow)
-        // =================================================================
+      
         Optional<Integer> accountBalance = Optional.of(5000);
 
         Integer remainingBalance = accountBalance
-                .filter(bal -> bal >= 2000)          // Predicate: Does user have at least 2000? (true)
-                .map(bal -> bal - 2000)              // Function:  Deduct 2000 -> 3000 remains
+                .filter(bal -> bal >= 2000)          
+                .map(bal -> bal - 2000)              
                 .orElseThrow(() -> new RuntimeException("Insufficient Balance!")); // Supplier<Exception>
 
         System.out.println("Example 3 (New Balance):     Rs." + remainingBalance);
