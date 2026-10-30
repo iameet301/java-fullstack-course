@@ -5,9 +5,7 @@ import java.util.Optional;
 public class MoreOptionalExamples {
     public static void main(String[] args) {
 
-        // =================================================================
-        // EXAMPLE 1: E-Commerce Coupon (Check if Bill >= 1000, Give 10% Off)
-        // =================================================================
+
         Optional<Double> cartBill = Optional.of(1500.0);
 
         Double finalPayable = cartBill
