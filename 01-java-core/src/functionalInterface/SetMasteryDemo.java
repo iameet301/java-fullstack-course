@@ -20,7 +20,7 @@ public class SetMasteryDemo {
         linkedHashSet.add(50);
         linkedHashSet.add(10);
         linkedHashSet.add(30);
-        linkedHashSet.add(10); // Duplicate! Ignored
+        linkedHashSet.add(10); 
         linkedHashSet.add(20);
         System.out.println("LinkedHashSet (Insertion):    " + linkedHashSet);
 
